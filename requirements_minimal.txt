@@ -1,0 +1,27 @@
+# Minimal requirements for ErgonomicXAI
+# Core dependencies only
+
+# Image processing
+opencv-python==4.11.0.86
+
+# Pose detection
+mediapipe==0.10.21
+
+# Web interface
+streamlit==1.50.0
+
+# Data processing
+numpy==1.26.4
+pandas==2.3.3
+
+# Machine learning (minimal)
+torch==2.2.2
+scikit-learn==1.5.2
+
+# Visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Utilities
+Pillow==10.4.0
+requests==2.32.3

@@ -1,0 +1,30 @@
+# ErgonomicXAI - Windows Requirements
+# Core dependencies for AI-powered ergonomic risk assessment
+
+# Computer Vision & Image Processing
+opencv-python==4.11.0.86
+mediapipe==0.10.21
+Pillow==10.4.0
+
+# Web Interface
+streamlit==1.50.0
+
+# Machine Learning & AI
+torch==2.2.2
+torchvision==0.17.2
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.3.3
+
+# Data Processing
+scipy==1.13.1
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Utilities
+requests==2.32.3
+pathlib2==2.3.7
+tqdm==4.66.5
+
+# Windows-specific optimizations
+pywin32==306; sys_platform == "win32"
