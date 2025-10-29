@@ -15,3 +15,11 @@ __pycache__/
 *.png
 /output/
 /results/
+venv/
+__pycache__/
+*.pyc
+*.log
+*.mp4
+*.zip
+output/
+results/
