@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.bat
+*.log
+*.mp4
+*.avi
+*.mov
+*.zip
+*.jpg
+*.jpeg
+*.png
+/output/
+/results/
