@@ -1,9 +1,8 @@
-# ErgonomicXAI - Windows Requirements
-# Core dependencies for AI-powered ergonomic risk assessment
+# ErgonomicXAI - Cloud Deployment Requirements
+# Core dependencies for AI-powered ergonomic posture analysis
 
 # Computer Vision & Image Processing
 opencv-python-headless==4.11.0.86
-
 mediapipe==0.10.21
 Pillow==10.4.0
 
@@ -27,5 +26,9 @@ requests==2.32.3
 pathlib2==2.3.7
 tqdm==4.66.5
 
-# Windows-specific optimizations
+# Optional – avoid installing pywin32 on Render (Linux)
 pywin32==306; sys_platform == "win32"
+
+# Compatibility fix for TensorFlow Lite used internally by MediaPipe
+absl-py==2.1.0
+protobuf==4.25.3
